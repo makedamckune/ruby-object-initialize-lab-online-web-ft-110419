@@ -14,12 +14,10 @@ class Dog
   def breed=(breed)
     @breed = breed
   end
-  def breed=(mutt)
-    @breed = mutt
-  end 
-  def breed 
+   def breed 
     @breed 
   end
+  
 end 
 
 fido = Dog.new("Fido","Pug")
